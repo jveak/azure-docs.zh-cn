@@ -126,7 +126,7 @@ npm install -g iothub-explorer
 
 `iothub-explorer` CLI 实用程序连接到 IoT 中心的服务端“事件”终结点。 实用工具会接收从模拟设备发送的设备到云的消息。 IoT 中心后端应用程序通常在云中运行，接收和处理设备到云的消息。
 
-在另一个终端窗口中，运行以下命令，将 `{your hub service connection string}` 替换为之前记下的设备连接字符串：
+在另一个终端窗口中，运行以下命令，将 `{your hub service connection string}` 替换为之前记下的服务连接字符串：
 
 ```cmd/sh
 iothub-explorer monitor-events MyPythonDevice --login {your hub service connection string}
